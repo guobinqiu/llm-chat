@@ -39,7 +39,6 @@ func main() {
 	apiKey := os.Getenv("OPENAI_API_KEY")
 	baseURL := os.Getenv("OPENAI_API_BASE")
 	model := os.Getenv("OPENAI_API_MODEL")
-
 	if apiKey == "" || baseURL == "" || model == "" {
 		fmt.Println("检查环境变量设置")
 		return
