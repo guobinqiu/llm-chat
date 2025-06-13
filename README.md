@@ -8,4 +8,4 @@
 
 [下一课](https://github.com/guobinqiu/mcp-demo-golang)
 
-[LLM Chat 网页版](https://github.com/guobinqiu/llm-chat-web)
+[LLM Chat Web版](https://github.com/guobinqiu/llm-chat-web)
