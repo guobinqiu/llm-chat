@@ -7,3 +7,5 @@
   - smarter 有记忆功能同时优化了性能，如摘要长对话内容 （压缩旧消息）
 
 [下一课](https://github.com/guobinqiu/mcp-demo-golang)
+
+[LLM Chat 网页版](https://github.com/guobinqiu/llm-chat-web)
