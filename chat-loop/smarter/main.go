@@ -150,6 +150,8 @@ func (c *ChatClient) CallOpenAI(messages []openai.ChatCompletionMessage) (string
 	resp, err := c.client.CreateChatCompletion(ctx, openai.ChatCompletionRequest{
 		Model:    c.model,
 		Messages: messages,
+		Temperature: 0.7, // 控制回答的随机性，范围是 0 到 2（默认 1）
+		MaxTokens:   512, // 限制返回的最大 token 数
 	})
 	if err != nil {
 		return "", err
